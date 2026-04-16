@@ -9,7 +9,7 @@ Building an LED matrix that fades using RC timing to understand how capacitors c
 - Learned capacitor charge/discharge behavior
 - Smooth voltage transitions instead of instant ON/OFF  
 
-![Basic RC Circuit](j1.0.png)
+![Basic RC Circuit](assets/j1.0.png)
 
 **Insights:**
 - ↑R or ↑C → slower response  
@@ -19,8 +19,8 @@ Building an LED matrix that fades using RC timing to understand how capacitors c
 - 2kΩ + 1µF → fast  
 - Higher values → slower  
 
-![RC Graph 1](j1.1.png)  
-![RC Graph 2](j1.2.png)
+![RC Graph 1](assets/j1.1.png)  
+![RC Graph 2](assets/j1.2.png)
 
 Time: 0.5h
 
@@ -60,7 +60,7 @@ Time: 0.5h
 
 - Built multi-stage RC ladder  
 
-![3 LED RC Chain](j2.0.png)
+![3 LED RC Chain](assets/j2.0.png)
 
 **Result:**  
 - Natural delay between LEDs  
@@ -95,7 +95,7 @@ Time: 0.5h
 
 - Used increasing R & C values  
 
-![1x4 Matrix](j3.0.PNG)
+![1x4 Matrix](assets/j3.0.PNG)
 
 **Result:**  
 - Clear signal propagation (left → right)  
@@ -113,7 +113,7 @@ Time: 0.5h
 **Goal:**  
 - Full 4x4 LED matrix using only RC  
 
-![4x4 Matrix](j4.0.PNG)
+![4x4 Matrix](assets/j4.0.PNG)
 
 **Direction:**  
 - "Breathing wave matrix"  
